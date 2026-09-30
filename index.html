@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2048ed">
+<meta name="description" content="Descubrí eventos y planes en TAKIM. Café, escapadas y música para compartir.">
+<title>TAKIM · Encontrá tu próximo plan</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+<header><span class="logo">TAKIM✳</span><button class="plus" id="new">+ Crear evento</button></header>
+<section class="hero">
+<div class="kicker">PLANES REALES. GENTE REAL.</div>
+<h1>Un buen plan.<br><span>Mejor en compañía.</span></h1>
+<p>Un café, una escapada, una noche de música.</p>
+</section>
+<div class="chips" id="chips">
+<button class="chip" aria-pressed="true" data-f="all">Todos</button>
+<button class="chip" aria-pressed="false" data-f="Café">☕ Café</button>
+<button class="chip" aria-pressed="false" data-f="Escapadas">🏞️ Escapadas</button>
+<button class="chip" aria-pressed="false" data-f="Música">🎶 Música</button>
+</div>
+<div class="count" id="count"></div>
+<main class="feed" id="feed"></main>
+<footer>Lo mejor de un plan es compartirlo.</footer>
+</div>
+<nav><div>
+<button class="act"><i>🏠</i>Inicio</button>
+<button><i>🔍</i>Explorar</button>
+<button class="mid"><i>+</i>Crear</button>
+<button><i>🔔</i>Avisos</button>
+<button><i>👤</i>Perfil</button>
+</div></nav>
+<script src="js/app.js"></script>
+</body>
+</html>
